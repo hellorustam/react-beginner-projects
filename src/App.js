@@ -22,7 +22,7 @@ function App() {
         ✨ Открыть окно
       </button>
       <Modal open={open} setOpen={setOpen}>
-        <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
+        <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="" />
         <h3>Это моя модалка</h3>
       </Modal>
       {/* {open && <Modal open={open} setOpen={setOpen} />} */}
